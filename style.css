@@ -3,6 +3,7 @@
 margin: 0;
 padding:0;
 border:0;
+text-decoration: none;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -53,29 +54,35 @@ body {
         
         .header-links {
           flex:1;
+          display:flex;
           
         
         }
           ul {
+          /* flex:1;*/
            margin:0;
            padding:0; 
-           display:flex;
-           justify-content: flex-end;
+           /*display:flex;
+           justify-content: space-evenly;*/
+           
           }
 
             li { 
               flex: 1 0 0;
-             text-align: right;
+              display:inline-block;
+              text-align: right;
               list-style: none;
               padding:0;
               margin:0;
             
             }
 
-            a {   
+            .header-links li a {   
               text-decoration: none; 
               font-size: 18px;
               color: #e5e7eb;
+              margin:0;
+              padding: 0;
             } 
 
     .hero {
