@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../git_test"
+		},
+		{
+			"path": "../odin-recipes"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Landing-Page"
+	},
+	"extensions": {
+		"recommendations": [
+			"sandcastle.vscode-open"
+		]
+	}
+}
